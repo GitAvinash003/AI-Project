@@ -1,0 +1,9 @@
+{
+  "id": "ccda1f44-a45f-4347-8676-0cb420b833a3",
+  "name": "skills",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

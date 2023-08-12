@@ -1,0 +1,89 @@
+[
+  {
+    "id": "9a71f6ae-673f-48a9-b06e-c679f52794c1",
+    "data": [
+      {
+        "text": "provide the skills you are looking for ",
+        "userDefined": false
+      },
+      {
+        "text": "@skill",
+        "meta": "@skills",
+        "alias": "skills",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f51fb9b6-7682-47e9-b4f8-0916ec011e20",
+    "data": [
+      {
+        "text": "provide E-mail id  of a person ",
+        "userDefined": false
+      },
+      {
+        "text": "@sysemail",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54febd8e-2e4c-4ef2-8876-150e91084073",
+    "data": [
+      {
+        "text": "phone number of a  person ",
+        "userDefined": false
+      },
+      {
+        "text": "@phonenumer",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9edd6c30-84fd-4dc6-882a-b6428ace3fcc",
+    "data": [
+      {
+        "text": "name of a resumer @",
+        "userDefined": false
+      },
+      {
+        "text": "sysname",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e446b5a2-6c47-44a6-a479-cee148501c2c",
+    "data": [
+      {
+        "text": "please give information  about the resume",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

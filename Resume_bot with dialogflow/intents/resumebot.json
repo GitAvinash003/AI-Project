@@ -1,0 +1,130 @@
+{
+  "id": "768d98ff-f14c-496e-af74-5d29b44cf973",
+  "name": "resumebot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "resumebot-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fbb7b773-8e1c-4c08-870b-bbe22455aa63",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "tell me your [phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e9f5d43e-33ab-4bd5-a001-8e76e2729785",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please tell me your email id"
+            },
+            {
+              "lang": "en",
+              "value": "may I know your mail id"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bd6219b2-449b-4ed8-8652-6ffffa49f439",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "-name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "may i know your name"
+            },
+            {
+              "lang": "en",
+              "value": "could you provide me your organization name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4df40fc1-95c4-41d9-8d42-ba562e90d5c9",
+          "name": "skills",
+          "required": true,
+          "dataType": "@skills",
+          "value": "$skills",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "skills your are looking for"
+            },
+            {
+              "lang": "en",
+              "value": "programming,WD,SDE"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "thank you for your response",
+            "we will send resume in your email id or your number"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
